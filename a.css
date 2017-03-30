@@ -1,0 +1,142 @@
+h1{
+	font-weight: bold;
+	text-shadow: 1px 2px black;
+	font-family: sans-serif;
+	padding:20px;
+	color:tan;
+}
+
+img{
+	float:left;
+	width:130px;
+	height: 105px;
+	border: 2px solid black;
+
+}
+
+#all{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+
+#header{
+	width: 100%;
+	border: 3px inset #FFF5EE;
+	background-color: #000011;
+}
+
+#nav{
+	padding: 20px;
+	border-left:  3px inset #FFF5EE;
+	border-right: 3px inset #FFF5EE;
+}
+
+#content{
+	width: 100%;
+	height: 1000px;
+	border: 3px inset #FFF5EE;
+
+
+}
+
+#subcontent{
+	float: right;
+	border: 3px inset #FFF5EE;
+	color: #FFF5EE;
+	width: 29.5%;
+	height: 1000px;
+	background-color: #000011;
+}
+
+#incontent{
+	border: 3px inset #FFF5EE;
+	width: 70%;
+	height: 1000px;
+	background-color: #000011;
+}
+
+#footer{
+	color:tan;
+	text-shadow: 1px 2px black;
+	font-family: sans-serif;
+	border: 3px inset #FFF5EE;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color:tan;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px black
+
+}
+
+body{
+	background-image: url("BG.jpg");
+	background-size:cover;
+
+}
+
+#list1{
+	background-color:#FFF5EE;
+	padding: 20px;
+	box-shadow: 1px 2px black;
+	border: 2px inset black;
+	width:600px;
+	height: 50px;
+	font-size: 2em;
+}
+#list2{
+	background-color:#FFF5EE;
+	padding: 20px;
+	box-shadow: 1px 2px black;
+	border: 2px inset black;
+	width:600px;
+	height: 50px;
+	font-size: 2em;
+}
+#list3{
+	background-color:#FFF5EE;
+	padding: 20px;
+	box-shadow: 1px 2px black;
+	border: 2px inset black;
+	width:600px;
+	height: 50px;
+	font-size: 2em;
+}
+#list4{
+	background-color:#FFF5EE;
+	padding: 20px;
+	box-shadow: 1px 2px black;
+	border: 2px inset black;
+	width:600px;
+	height: 50px;
+	font-size: 2em;
+}
+
+iframe{
+	padding-right: 23%;
+	padding-left: 23%;
+}
+
+#fbkademy{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color:red;
+	text-shadow: 1px 1px pink;
+}
+
+#searchdata{
+	float: right;
+	margin-top: 90px;
+	margin-right: 20px;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color:#FFF5EE;
+	text-shadow: 1px 2px black;
+}
