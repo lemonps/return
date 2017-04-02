@@ -19,12 +19,8 @@ public class admin {
             ps.setString(1, name);
             ps.setString(2, co_id);
             ps.setInt(3, id);
-        ResultSet rs = ps.executeQuery(sql);
-            while (rs.next()) {
-                subject sub = new subject();
-                sub.setName(rs.getString("name"));
-                sub.setCourse_id(rs.getString("course_id"));
-            }
+        int rs = ps.executeUpdate();
+            System.out.println(rs + " updated !!");
     }
 
     public String getUsername() {
